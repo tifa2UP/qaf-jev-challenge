@@ -10,6 +10,8 @@ const files = new Map([
   ["/app.mjs", ["app.mjs", "text/javascript; charset=utf-8"]],
   ["/engine.mjs", ["engine.mjs", "text/javascript; charset=utf-8"]],
   ["/data.mjs", ["data.mjs", "text/javascript; charset=utf-8"]],
+  ["/assets/ReadexPro.ttf", ["assets/ReadexPro.ttf", "font/ttf"]],
+  ["/assets/ReadexPro-OFL.txt", ["assets/ReadexPro-OFL.txt", "text/plain; charset=utf-8"]],
   ["/README.md", ["README.md", "text/plain; charset=utf-8"]],
   ["/SOURCES.md", ["SOURCES.md", "text/plain; charset=utf-8"]],
   ["/LICENSE", ["LICENSE", "text/plain; charset=utf-8"]]

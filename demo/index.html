@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header class="masthead"><a class="brand" href="./"><span class="mark">ق</span><span>قاف <small>مختبر الدليل</small></span></a><span class="edition" dir="ltr">QAF × JEV · PUBLIC DEMO</span></header>
+  <a class="skip-link" href="#question-heading">تجاوز إلى التجربة</a>
+  <header class="masthead"><a class="brand" href="./"><span class="mark">ق</span><span>قاف <small>مختبر الدليل</small></span></a><a class="back-link" href="https://tifa2up.github.io/qaf-jev-challenge/">صفحة المشاركة <span aria-hidden="true">↗</span></a></header>
   <main>
     <section class="hero">
       <p class="eyebrow">السؤال ← النص ← القرار</p>
@@ -18,13 +19,14 @@
     </section>
     <div class="workspace">
       <section class="question-panel panel" aria-labelledby="question-heading">
-        <div class="panel-head"><span class="step-number">01</span><h2 id="question-heading">ابدأ بسؤال</h2><span class="muted">نطاق محدود وواضح</span></div>
+        <div class="panel-head"><span class="step-number">01</span><h2 id="question-heading" tabindex="-1">ابدأ بسؤال</h2><span class="muted">نطاق محدود وواضح</span></div>
         <form id="question-form">
           <label for="question" class="sr-only">سؤالك عن منهج التوثيق والبحث</label>
           <textarea id="question" maxlength="600" rows="3" placeholder="كيف أتحقق من الاقتباس قبل نقله؟">كيف أتحقق من الاقتباس قبل نقله؟</textarea>
           <div class="form-foot"><span id="char-count" class="muted">تجربة محلية في متصفحك</span><button type="submit" class="primary">افحص الأدلة <span aria-hidden="true">←</span></button></div>
         </form>
         <div class="examples" id="examples" aria-label="أسئلة جاهزة"></div>
+        <p class="hint">اختر سؤالًا جاهزًا لمشاهدة تغطية كاملة أو جزئية، أو امتناعٍ عند غياب النص.</p>
         <div id="error" class="error" role="alert" hidden></div>
       </section>
       <aside class="how panel">
@@ -32,7 +34,7 @@
         <ol><li><b>فهم السؤال</b><span>قواعد صريحة تحدد الموضوع.</span></li><li><b>اختيار النصوص</b><span>درجات تعليمية من ٠ إلى ٣.</span></li><li><b>فحص التغطية</b><span>إجابة، إجابة جزئية، أو امتناع.</span></li><li><b>إحالات مقيدة</b><span>لا يُقبل معرّف خارج المجموعة.</span></li></ol>
       </aside>
     </div>
-    <section id="results" aria-live="polite" aria-atomic="false"></section>
+    <section id="results" tabindex="-1" aria-live="polite" aria-atomic="false" aria-label="نتيجة فحص الأدلة"></section>
     <section class="integrity panel">
       <div><p class="eyebrow">اختبار يمكن إعادة تشغيله</p><h2>ماذا لو اخترعنا معرّفًا؟</h2><p>جرّب إحالة موجودة وأخرى غير موجودة. تمرّ الأولى؛ تُرفض الثانية قبل عرضها كدليل.</p></div>
       <div class="integrity-action"><button id="test-citation" class="secondary">اختبر إحالة غير موجودة</button><div id="citation-test" role="status"></div></div>

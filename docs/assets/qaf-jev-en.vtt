@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:00.800 --> 00:00:03.367 line:78% position:50% align:center size:85%
+Where did this answer come from?
+
+2
+00:00:03.633 --> 00:00:07.833 line:78% position:50% align:center size:85%
+One question captures the challenge of trust in Islamic knowledge.
+
+3
+00:00:07.867 --> 00:00:12.600 line:78% position:50% align:center size:85%
+Qaf brings questions and sources closer together.
+
+4
+00:00:13.667 --> 00:00:16.667 line:78% position:50% align:center size:85%
+Qaf helps researchers and readers explore a question,
+
+5
+00:00:16.700 --> 00:00:19.200 line:78% position:50% align:center size:85%
+and read cited passages in their context.
+
+6
+00:00:19.233 --> 00:00:24.233 line:78% position:50% align:center size:85%
+Books, authors, and source locations remain alongside the answer.
+
+7
+00:00:25.667 --> 00:00:30.467 line:78% position:50% align:center size:85%
+Jev. An experimental workflow that selects evidence before writing.
+
+8
+00:00:30.500 --> 00:00:34.267 line:78% position:50% align:center size:85%
+It classifies the question and evaluates the retrieved passages,
+
+9
+00:00:34.300 --> 00:00:37.200 line:78% position:50% align:center size:85%
+then reviews coverage and identifies the gaps.
+
+10
+00:00:38.500 --> 00:00:40.800 line:78% position:50% align:center size:85%
+Code controls the follow-up steps.
+
+11
+00:00:40.833 --> 00:00:44.000 line:78% position:50% align:center size:85%
+Gemini then writes from a numbered evidence pack.
+
+12
+00:00:44.033 --> 00:00:47.933 line:78% position:50% align:center size:85%
+Citation numbers resolve to known passages the reader can inspect.
+
+13
+00:00:49.133 --> 00:00:53.267 line:78% position:50% align:center size:85%
+In the independent educational demo, we ask: how do we check a quotation?
+
+14
+00:00:53.300 --> 00:00:58.067 line:78% position:50% align:center size:85%
+We open a citation and see the passage advising us to read the surrounding sentences.
+
+15
+00:00:58.100 --> 00:01:01.133 line:78% position:50% align:center size:85%
+When evidence is missing, the demo states its limits.
+
+16
+00:01:02.333 --> 00:01:06.700 line:78% position:50% align:center size:85%
+In a previous study using 48 questions,
+
+17
+00:01:06.733 --> 00:01:10.667 line:78% position:50% align:center size:85%
+estimated mean cost was about 40% lower.
+
+18
+00:01:10.700 --> 00:01:14.133 line:78% position:50% align:center size:85%
+Median time to the first readable answer text fell
+
+19
+00:01:14.167 --> 00:01:18.667 line:78% position:50% align:center size:85%
+from about thirteen seconds to less than ten.
+
+20
+00:01:19.833 --> 00:01:22.833 line:78% position:50% align:center size:85%
+No quality advantage has been established:
+
+21
+00:01:22.867 --> 00:01:27.333 line:78% position:50% align:center size:85%
+Twenty preferences for the experimental workflow, sixteen for production,
+
+22
+00:01:27.367 --> 00:01:31.067 line:78% position:50% align:center size:85%
+and twelve undecided comparisons.
+
+23
+00:01:32.033 --> 00:01:34.933 line:78% position:50% align:center size:85%
+The study predates the challenge, and its evaluation is automated.
+
+24
+00:01:34.967 --> 00:01:37.200 line:78% position:50% align:center size:85%
+In the audit sample, serious errors were found
+
+25
+00:01:37.233 --> 00:01:39.933 line:78% position:50% align:center size:85%
+in six of eighteen answers in each workflow.
+
+26
+00:01:41.067 --> 00:01:47.867 line:78% position:50% align:center size:85%
+The submission provides an independent explanation and a demo with synthetic data,
+
+27
+00:01:47.900 --> 00:01:50.833 line:78% position:50% align:center size:85%
+with documented results and limitations.
+
+28
+00:01:50.867 --> 00:01:55.067 line:78% position:50% align:center size:85%
+Qaf. A clearer question. Evidence closer at hand.

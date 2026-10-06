@@ -1,0 +1,76 @@
+{
+  "created": "2026-10-06",
+  "provider": "Google Gemini API",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Algieba (prebuilt)",
+  "language": "Modern Standard Arabic, with an English product-name introduction",
+  "voiceCloning": false,
+  "source": "Original approved Arabic narration; no private Qaf passages or real user conversations.",
+  "timingAid": "OpenAI Whisper-1 word timestamps, reviewed against approved text and audio with acoustic checks and timing corrections.",
+  "totalNarrationSeconds": 105.84,
+  "clips": [
+    {
+      "file": "public/audio/scene-01.wav",
+      "durationSeconds": 11.8,
+      "text": "من أين جاءت هذه الإجابة؟ سؤالٌ واحد يختصر تحدّي الثقة في المعرفة الإسلامية. قاف يقرّب المسافة بين السؤال ومصدره.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "12e763c01c35d20f3cbd4013ad7add3ed69966688c3fcec2ed5afed1519f7dde"
+    },
+    {
+      "file": "public/audio/scene-02.wav",
+      "durationSeconds": 10.76,
+      "text": "يساعد قاف الباحث والقارئ على استكشاف المسائل، وقراءة المقاطع المستشهد بها في سياقها. فتظل الكتب والمؤلفون ومواضع النص حاضرةً إلى جانب الإجابة.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "cbb425870c22b37ddab37727c2dbbbb2b6648f11c7665175201addf88f6a6da6"
+    },
+    {
+      "file": "public/audio/scene-03.wav",
+      "durationSeconds": 11.96,
+      "text": "Jev. مسارٌ تجريبي يختار الأدلة قبل صياغة الإجابة. يصنّف السؤال، ويقيّم المقاطع المسترجعة، ثم يراجع التغطية ويحدّد الفجوات.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "9906960d146fa7970c1eb956915098c013e4c736a09ad0ec585515eadaa944ea"
+    },
+    {
+      "file": "public/audio/scene-04.wav",
+      "durationSeconds": 9.56,
+      "text": "وتضبط الشفرة خطوات المتابعة. بعد ذلك، يصوغ جيميني الإجابة من حزمة أدلة مرقمة. وتحيل أرقام الاستشهاد إلى المقاطع المعروفة التي يمكن للقارئ مراجعتها.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "cada96d95fc743108a2657ee764c5a0e9abff88e8cd2e6dc7a28390935384241"
+    },
+    {
+      "file": "public/audio/scene-05.wav",
+      "durationSeconds": 12.04,
+      "text": "وفي النموذج التعليمي المستقل، نسأل: كيف نتحقق من الاقتباس؟ نفتح إحالة محددة، فنرى النص الذي يوصي بقراءة الجمل المحيطة به. وعند غياب الدليل، يعلن النموذج حدودَه.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "0336f818b9be92a74eb66fb9abe44dea5aff0eeef3773a07f2d336755cbc4de4"
+    },
+    {
+      "file": "public/audio/scene-06.wav",
+      "durationSeconds": 16.4,
+      "text": "في دراسة سابقة على ثمانية وأربعين سؤالًا، انخفض متوسط التكلفة المقدرة بنحو أربعين بالمئة. وانخفض وسيط ظهور أول نص مقروء من نحو ثلاث عشرة ثانية إلى أقل من عشر ثوانٍ.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "3235c952e39e81ce9f5f9d2edfc8bf8980bd0e72172cb99020c7180b6b529e20"
+    },
+    {
+      "file": "public/audio/scene-07.wav",
+      "durationSeconds": 11.16,
+      "text": "أما الجودة فلم تُحسم أفضليتها: عشرون تفضيلًا للمسار التجريبي، وستة عشر للإنتاج، واثنتا عشرة حالة غير محسومة.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "f0cd070ff9d0e99e9a0add93ff86e8c5a725e6dd91e852dc2ed92c66a1023dfe"
+    },
+    {
+      "file": "public/audio/scene-08.wav",
+      "durationSeconds": 8.0,
+      "text": "الدراسة سابقة للتحدي، وتقييمها آلي. وفي عينة التدقيق، ظهرت أخطاء جوهرية في ست إجابات من ثماني عشرة لدى كل مسار.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "9978ce8ce6eceea5699ecd6a4e92c5e0ec50d07e47c88fce3f0fc62d7a27ebb0"
+    },
+    {
+      "file": "public/audio/scene-09.wav",
+      "durationSeconds": 14.16,
+      "text": "وتقدّم مواد المشاركة شرحًا مستقلًا وتجربة تعليمية ببيانات مصطنعة، مع توثيق النتائج والحدود. قاف. سؤالٌ أوضح، ودليلٌ أقرب.",
+      "processing": "Two-pass loudness normalization: -18 LUFS integrated, -3.5 dBTP ceiling, LRA 7, 48 kHz mono PCM. No tempo change.",
+      "sha256": "b0d302385a4cc67921fe6a48b74d0b796f1c3a598da3f1701b7e2da173ee2fd1"
+    }
+  ]
+}

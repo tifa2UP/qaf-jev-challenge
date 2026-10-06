@@ -1,0 +1,319 @@
+{
+  "fps": 30,
+  "audioReady": true,
+  "totalFrames": 3540,
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "frames": 399,
+      "audioOffset": 24,
+      "audioFrames": 354,
+      "audioFile": "audio/scene-01.wav",
+      "cues": [
+        {
+          "start": 24,
+          "end": 101,
+          "ar": "من أين جاءت هذه الإجابة؟",
+          "en": "Where did this answer come from?"
+        },
+        {
+          "start": 109,
+          "end": 235,
+          "ar": "سؤالٌ واحد يختصر تحدّي الثقة في المعرفة الإسلامية.",
+          "en": "One question captures the challenge of trust in Islamic knowledge."
+        },
+        {
+          "start": 236,
+          "end": 378,
+          "ar": "قاف يقرّب المسافة بين السؤال ومصدره.",
+          "en": "Qaf brings questions and sources closer together."
+        }
+      ],
+      "duration": 11.8,
+      "alignment": {
+        "distance": 0,
+        "target": 19,
+        "recognized": 19
+      }
+    },
+    {
+      "id": 2,
+      "start": 399,
+      "frames": 354,
+      "audioOffset": 11,
+      "audioFrames": 323,
+      "audioFile": "audio/scene-02.wav",
+      "cues": [
+        {
+          "start": 11,
+          "end": 101,
+          "ar": "يساعد قاف الباحث والقارئ على استكشاف المسائل،",
+          "en": "Qaf helps researchers and readers explore a question,"
+        },
+        {
+          "start": 102,
+          "end": 177,
+          "ar": "وقراءة المقاطع المستشهد بها في سياقها.",
+          "en": "and read cited passages in their context."
+        },
+        {
+          "start": 178,
+          "end": 328,
+          "ar": "فتظل الكتب والمؤلفون ومواضع النص حاضرةً إلى جانب الإجابة.",
+          "en": "Books, authors, and source locations remain alongside the answer."
+        }
+      ],
+      "duration": 10.76,
+      "alignment": {
+        "distance": 0,
+        "target": 22,
+        "recognized": 22
+      }
+    },
+    {
+      "id": 3,
+      "start": 753,
+      "frames": 391,
+      "audioOffset": 11,
+      "audioFrames": 359,
+      "audioFile": "audio/scene-03.wav",
+      "cues": [
+        {
+          "start": 17,
+          "end": 161,
+          "ar": "Jev. مسارٌ تجريبي يختار الأدلة قبل صياغة الإجابة.",
+          "en": "Jev. An experimental workflow that selects evidence before writing."
+        },
+        {
+          "start": 162,
+          "end": 275,
+          "ar": "يصنّف السؤال، ويقيّم المقاطع المسترجعة،",
+          "en": "It classifies the question and evaluates the retrieved passages,"
+        },
+        {
+          "start": 276,
+          "end": 363,
+          "ar": "ثم يراجع التغطية ويحدّد الفجوات.",
+          "en": "then reviews coverage and identifies the gaps."
+        }
+      ],
+      "duration": 11.96,
+      "alignment": {
+        "distance": 1,
+        "target": 18,
+        "recognized": 17
+      }
+    },
+    {
+      "id": 4,
+      "start": 1144,
+      "frames": 319,
+      "audioOffset": 11,
+      "audioFrames": 287,
+      "audioFile": "audio/scene-04.wav",
+      "cues": [
+        {
+          "start": 11,
+          "end": 80,
+          "ar": "وتضبط الشفرة خطوات المتابعة.",
+          "en": "Code controls the follow-up steps."
+        },
+        {
+          "start": 81,
+          "end": 176,
+          "ar": "بعد ذلك، يصوغ جيميني الإجابة من حزمة أدلة مرقمة.",
+          "en": "Gemini then writes from a numbered evidence pack."
+        },
+        {
+          "start": 177,
+          "end": 294,
+          "ar": "وتحيل أرقام الاستشهاد إلى المقاطع المعروفة التي يمكن للقارئ مراجعتها.",
+          "en": "Citation numbers resolve to known passages the reader can inspect."
+        }
+      ],
+      "duration": 9.56,
+      "alignment": {
+        "distance": 0.55,
+        "target": 23,
+        "recognized": 23
+      }
+    },
+    {
+      "id": 5,
+      "start": 1463,
+      "frames": 396,
+      "audioOffset": 11,
+      "audioFrames": 362,
+      "audioFile": "audio/scene-05.wav",
+      "cues": [
+        {
+          "start": 11,
+          "end": 135,
+          "ar": "وفي النموذج التعليمي المستقل، نسأل: كيف نتحقق من الاقتباس؟",
+          "en": "In the independent educational demo, we ask: how do we check a quotation?"
+        },
+        {
+          "start": 136,
+          "end": 279,
+          "ar": "نفتح إحالة محددة، فنرى النص الذي يوصي بقراءة الجمل المحيطة به.",
+          "en": "We open a citation and see the passage advising us to read the surrounding sentences."
+        },
+        {
+          "start": 280,
+          "end": 371,
+          "ar": "وعند غياب الدليل، يعلن النموذج حدودَه.",
+          "en": "When evidence is missing, the demo states its limits."
+        }
+      ],
+      "duration": 12.04,
+      "alignment": {
+        "distance": 0,
+        "target": 26,
+        "recognized": 26
+      }
+    },
+    {
+      "id": 6,
+      "start": 1859,
+      "frames": 525,
+      "audioOffset": 11,
+      "audioFrames": 492,
+      "audioFile": "audio/scene-06.wav",
+      "cues": [
+        {
+          "start": 11,
+          "end": 142,
+          "ar": "في دراسة سابقة على ثمانية وأربعين سؤالًا،",
+          "en": "In a previous study using 48 questions,"
+        },
+        {
+          "start": 143,
+          "end": 261,
+          "ar": "انخفض متوسط التكلفة المقدرة بنحو أربعين بالمئة.",
+          "en": "estimated mean cost was about 40% lower."
+        },
+        {
+          "start": 262,
+          "end": 365,
+          "ar": "وانخفض وسيط ظهور أول نص مقروء",
+          "en": "Median time to the first readable answer text fell"
+        },
+        {
+          "start": 366,
+          "end": 501,
+          "ar": "من نحو ثلاث عشرة ثانية إلى أقل من عشر ثوانٍ.",
+          "en": "from about thirteen seconds to less than ten."
+        }
+      ],
+      "duration": 16.4,
+      "alignment": {
+        "distance": 7.55,
+        "target": 30,
+        "recognized": 27
+      }
+    },
+    {
+      "id": 7,
+      "start": 2384,
+      "frames": 366,
+      "audioOffset": 11,
+      "audioFrames": 335,
+      "audioFile": "audio/scene-07.wav",
+      "cues": [
+        {
+          "start": 11,
+          "end": 101,
+          "ar": "أما الجودة فلم تُحسم أفضليتها:",
+          "en": "No quality advantage has been established:"
+        },
+        {
+          "start": 102,
+          "end": 236,
+          "ar": "عشرون تفضيلًا للمسار التجريبي، وستة عشر للإنتاج،",
+          "en": "Twenty preferences for the experimental workflow, sixteen for production,"
+        },
+        {
+          "start": 237,
+          "end": 348,
+          "ar": "واثنتا عشرة حالة غير محسومة.",
+          "en": "and twelve undecided comparisons."
+        }
+      ],
+      "duration": 11.16,
+      "alignment": {
+        "distance": 4.1,
+        "target": 17,
+        "recognized": 17
+      }
+    },
+    {
+      "id": 8,
+      "start": 2750,
+      "frames": 271,
+      "audioOffset": 11,
+      "audioFrames": 240,
+      "audioFile": "audio/scene-08.wav",
+      "cues": [
+        {
+          "start": 11,
+          "end": 98,
+          "ar": "الدراسة سابقة للتحدي، وتقييمها آلي.",
+          "en": "The study predates the challenge, and its evaluation is automated."
+        },
+        {
+          "start": 99,
+          "end": 166,
+          "ar": "وفي عينة التدقيق، ظهرت أخطاء جوهرية",
+          "en": "In the audit sample, serious errors were found"
+        },
+        {
+          "start": 167,
+          "end": 248,
+          "ar": "في ست إجابات من ثماني عشرة لدى كل مسار.",
+          "en": "in six of eighteen answers in each workflow."
+        }
+      ],
+      "duration": 8,
+      "alignment": {
+        "distance": 4,
+        "target": 20,
+        "recognized": 19
+      }
+    },
+    {
+      "id": 9,
+      "start": 3021,
+      "frames": 519,
+      "audioOffset": 11,
+      "audioFrames": 425,
+      "audioFile": "audio/scene-09.wav",
+      "cues": [
+        {
+          "start": 11,
+          "end": 215,
+          "ar": "وتقدّم مواد المشاركة شرحًا مستقلًا وتجربة تعليمية ببيانات مصطنعة،",
+          "en": "The submission provides an independent explanation and a demo with synthetic data,"
+        },
+        {
+          "start": 216,
+          "end": 304,
+          "ar": "مع توثيق النتائج والحدود.",
+          "en": "with documented results and limitations."
+        },
+        {
+          "start": 305,
+          "end": 431,
+          "ar": "قاف. سؤالٌ أوضح، ودليلٌ أقرب.",
+          "en": "Qaf. A clearer question. Evidence closer at hand."
+        }
+      ],
+      "duration": 14.16,
+      "alignment": {
+        "distance": 0.55,
+        "target": 18,
+        "recognized": 18
+      }
+    }
+  ]
+}

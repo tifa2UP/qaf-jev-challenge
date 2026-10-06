@@ -25,7 +25,7 @@ npm test
 
 Copy only these files to a static directory such as `docs/demo/`:
 
-`index.html`, `style.css`, `app.mjs`, `engine.mjs`, `data.mjs`, `README.md`, `SOURCES.md`, `LICENSE`.
+`index.html`, `style.css`, `app.mjs`, `engine.mjs`, `data.mjs`, `README.md`, `SOURCES.md`, `LICENSE`, and the `assets/` directory containing Readex Pro and its font license.
 
 All page asset URLs are relative. No build step is required. Keep `provider/`, `scripts/`, `test/`, `server.mjs` and all environment files out of the static deployment. They remain in the source repository for inspection and local use.
 

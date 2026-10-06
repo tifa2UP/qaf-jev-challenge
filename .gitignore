@@ -7,4 +7,5 @@ video/out/
 video/.remotion/
 *.log
 tmp/
-
+.production-work/
+production-audio/

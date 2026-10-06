@@ -5,8 +5,8 @@
   "description": "Arabic Remotion explainer based only on public aggregate Jev report facts.",
   "scripts": {
     "studio": "remotion studio src/index.tsx",
-    "render": "remotion render src/index.tsx QafJevArabic out/qaf-jev-ar.mp4 --codec=h264 --crf=19 --concurrency=4",
-    "poster": "remotion still src/index.tsx QafJevArabic out/qaf-jev-ar-poster.png --frame=150"
+    "render": "node scripts/render.mjs",
+    "poster": "remotion still src/index.tsx QafJevPoster out/qaf-jev-ar-poster.png --frame=150"
   },
   "dependencies": {
     "@remotion/cli": "4.0.533",
