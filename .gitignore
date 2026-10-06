@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+video/out/
+video/.remotion/
+*.log
+tmp/
+

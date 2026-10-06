@@ -1,0 +1,14 @@
+{
+  "name": "qaf-jev-public-evidence-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent Arabic evidence workflow demonstrator with original synthetic fixtures",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "jev": "node scripts/jev-evaluate.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
