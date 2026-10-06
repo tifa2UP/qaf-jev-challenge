@@ -7,14 +7,14 @@ Created 6 October 2026 for this standalone public demonstration.
 | HTML, CSS, browser logic, topic engine, tests, Node server and provider adapter | Independently authored for this demonstration | MIT license in `LICENSE`; no copied private Qaf implementation |
 | Six Arabic passages in `data.mjs` | Original synthetic educational writing for this demonstration | MIT; not real source quotations, scripture, religious opinions, user conversations or corpus data |
 | Interface examples | Original synthetic questions about research methodology | MIT; no production user data |
-| Visual design and Arabic letter mark | New CSS, layout and plain text | No imported Qaf brand asset or proprietary illustration |
-| Readex Pro font | [Google Fonts](https://github.com/google/fonts/tree/main/ofl/readexpro) | Redistributed under SIL Open Font License 1.1; complete license in `assets/ReadexPro-OFL.txt` |
+| Qaf visual identity | Authentic Qaf logomark, wordmark and design references, used at the project owner’s request | Artwork remains Qaf property and is excluded from the code license; new HTML/CSS implementation, with no private application code copied. See `assets/brand/README.md`. |
+| IBM Plex Sans Arabic and Inter | Qaf production font assets | Redistributed under SIL Open Font License 1.1; full notices in `assets/brand/OFL.txt` and `assets/brand/Inter-OFL.txt` |
 | Jev HTTP request shape | [Official TypeSafe quick start](https://docs.typesafe.ai/introduction/quickstart) (checked 6 October 2026) | API-interface reference; no SDK or provider source code copied; provider terms govern optional calls |
 | Structured decision concept | [Official TypeSafe introduction](https://docs.typesafe.ai/introduction) | Public design reference; Jev is a third-party service, not a bundled or self-trained model |
 | Qaf/Jev architectural context | [Public comparison report](https://qaf-jev-v4-vs-prod.pages.dev/) | Prior-work reference only. No report questions, answers, corpus extracts, internal prompts or benchmark datasets copied |
 | Competition constraints | [Official challenge website](https://islamicaich.org/) and its participant/scientific documents | Reference for scope and reporting; no claim of organizer endorsement |
 
-There are **no third-party runtime packages**, redistributed corpus editions, external image assets or bundled models in this directory. MIT covers this new source and synthetic fixtures only; it does not grant rights over Qaf's existing product, TypeSafe's services, third-party books, or the public comparison report.
+There are **no third-party runtime packages**, redistributed corpus editions, external photographic assets or bundled models in this directory. MIT covers this new source and synthetic fixtures only; it does not grant rights over Qaf's brand artwork or existing product, TypeSafe's services, third-party books, or the public comparison report.
 
 ## Source boundaries
 

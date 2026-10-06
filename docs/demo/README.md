@@ -1,6 +1,6 @@
 # قاف — مختبر الدليل / Public evidence demonstrator
 
-An independently written public teaching implementation, created on **6 October 2026**. It contains no copied Qaf application code, proprietary prompts, corpus extracts, production conversations, credentials or visual assets.
+An independently written public teaching implementation, created on **6 October 2026**. It contains no copied Qaf application code, proprietary prompts, corpus extracts, production conversations, or credentials. Qaf’s authentic logomark, wordmark, typefaces and visual identity are used at the project owner’s request; the interface implementation is original.
 
 ## What runs in the public page
 
@@ -25,7 +25,7 @@ npm test
 
 Copy only these files to a static directory such as `docs/demo/`:
 
-`index.html`, `style.css`, `app.mjs`, `engine.mjs`, `data.mjs`, `README.md`, `SOURCES.md`, `LICENSE`, and the `assets/` directory containing Readex Pro and its font license.
+`index.html`, `style.css`, `app.mjs`, `engine.mjs`, `data.mjs`, `README.md`, `SOURCES.md`, `LICENSE`, and the `assets/brand/` directory containing Qaf artwork, IBM Plex Sans Arabic, Inter and their license/provenance notices.
 
 All page asset URLs are relative. No build step is required. Keep `provider/`, `scripts/`, `test/`, `server.mjs` and all environment files out of the static deployment. They remain in the source repository for inspection and local use.
 

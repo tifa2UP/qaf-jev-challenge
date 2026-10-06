@@ -44,12 +44,13 @@ The source study used real questions. Those questions and answers are **not incl
 ## Assets and provenance
 
 - The Arabic script, English translations, timeline, diagrams, charts, captions, and CSS motion were newly authored for this submission. No proprietary Qaf code was used.
-- `public/visuals/hero-library.webp` and `evidence-pages.webp` are original generated editorial images created for this film. They are atmospheric visuals, not scans of source manuscripts.
+- The film uses Qaf’s actual neutral palette, approved logo artwork, IBM Plex Sans Arabic and Inter typography, and a restrained reading-workspace layout. Film components were written independently; no proprietary Qaf implementation was copied. It uses no decorative generated library imagery.
 - `public/visuals/qaf-public-answer-focus.jpg` is a cropped capture of the public Qaf interface answering a new neutral question authored for this demonstration. It is labelled as the existing product. It is not a real user's conversation and does not show the private Jev experiment or a long source excerpt. Qaf product identity and interface rights remain with their owner.
 - `public/audio/scene-01.wav` through `scene-09.wav` are newly synthesized Arabic narration using the preset Algieba voice through Google Gemini 3.8 Flash TTS. No voice was cloned. The delivery combines a warm opening and closing with a brisk factual body; no tempo or pitch changes were applied. Approved spoken audio totals 105.84 seconds. Production configuration, credentials, provider responses, casting tests, and rejected recordings are excluded.
 - Narration was normalized to a target of −18 LUFS, with headroom for the mix. Automated transcription and separate acoustic checks informed name, number, and caption timing corrections. These are production checks, not human certification.
 - `public/audio/sfx-*.wav` are restrained original procedural sound textures. `scripts/generate-soundscape.py` contains their synthesizer; no music or third-party audio samples were used.
-- Readex Pro comes from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/readexpro) under SIL Open Font License 1.1. Its complete license is included in `public/fonts/OFL.txt`.
+- `public/brand/` contains the approved Qaf logomark and wordmark. These graphics remain Qaf property and are excluded from the repository’s code license. See its README for provenance.
+- IBM Plex Sans Arabic (revision 1.101) and Inter (version 4.001) are included under SIL Open Font License 1.1. Their complete licenses are `public/brand/OFL.txt` and `public/brand/Inter-OFL.txt`; font loading follows the product’s Arabic/Latin pairing and Arabic size adjustment. Waseem is not bundled.
 - Remotion and other npm packages retain their own licenses. See [Remotion's license](https://www.remotion.dev/license). New source follows the repository's license; it does not relicense dependencies or the Qaf product.
 
 ## Scene timing

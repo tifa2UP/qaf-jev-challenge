@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101a32">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <meta name="theme-color" content="#FBFBFB">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/qaf-logomark-dark.svg">
   <title>قاف × Jev — من السؤال إلى دليل يمكن مراجعته</title>
   <meta name="description" content="قاف وتجربة Jev: حوار معرفي عربي، واسترجاع منظم للأدلة، وتجربة مرجعية مفتوحة يمكن فحصها. عرض المشروع ومنهجيته ونتائجه.">
   <link rel="canonical" href="https://tifa2up.github.io/qaf-jev-challenge/">
@@ -19,16 +19,17 @@
   <meta property="og:image:height" content="675">
   <meta property="og:image:alt" content="من أين جاءت هذه الإجابة؟ قاف × Jev — من السؤال إلى الدليل">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" href="assets/ReadexPro.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="assets/hero-library.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="assets/brand/IBMPlexSansArabic-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/brand/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="site.css">
   <script type="module" src="site.mjs"></script>
 </head>
 <body>
+  <div class="page-shell">
   <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
   <header class="masthead">
     <div class="masthead-inner wrap">
-      <a class="brand" href="#" aria-label="قاف مع Jev، بداية الصفحة"><span class="brand-qaf">قاف</span><span class="brand-divider" aria-hidden="true">×</span><span class="brand-jev" lang="en" dir="ltr">Jev</span></a>
+      <a class="brand" href="#" aria-label="قاف مع Jev، بداية الصفحة"><img class="brand-wordmark" src="assets/brand/qaf-wordmark-dark.svg" alt="قاف" width="35" height="20"><span class="brand-divider" aria-hidden="true">×</span><span class="brand-jev" lang="en" dir="ltr">Jev</span></a>
       <nav class="main-nav" aria-label="أقسام الصفحة">
         <a href="#film">الفيلم</a><a href="#journey">رحلة الدليل</a><a href="#study">النتائج</a><a href="#explore">جرّب بنفسك</a><a href="#resources">الملفات</a>
       </nav>
@@ -37,13 +38,13 @@
   </header>
   <main id="main" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title">
-      <img class="hero-art" src="assets/hero-library.webp" alt="" width="2752" height="1536" fetchpriority="high" aria-hidden="true">
-      <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-content wrap">
+        <img class="hero-mark" src="assets/brand/qaf-logomark-dark.svg" alt="" width="499" height="585" aria-hidden="true">
         <p class="eyebrow hero-eyebrow"><span class="live-dot" aria-hidden="true"></span> الحوار المعرفي والإجابات الموثوقة</p>
         <h1 id="hero-title">من السؤال<br>إلى <em>دليلٍ يمكن مراجعته.</em></h1>
         <p class="hero-lead">قاف يجمع الحوار بالمصادر الإسلامية.<br class="desktop-break"> وتجربة <bdi lang="en">Jev</bdi> تستكشف كيف نختار الأدلة، قبل أن نصوغ الإجابة.</p>
-        <div class="hero-actions"><a class="button button-mint" href="#film"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z"/></svg> شاهد قصة المشروع</a><a class="button button-quiet" href="#explore">استكشف التجربة <span aria-hidden="true">↓</span></a></div>
+        <a class="hero-composer" href="https://qaf.ai" target="_blank" rel="noopener"><span><strong>ابدأ سؤالك في قاف</strong><small>افتح المنتج القائم للبحث في المصادر</small></span><span class="composer-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+        <div class="hero-actions"><a class="button button-primary" href="#film"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z"/></svg> شاهد قصة المشروع</a><a class="button button-quiet" href="#explore">استكشف التجربة <span aria-hidden="true">↓</span></a></div>
         <p class="hero-scope">قاف منتج متاح اليوم. <bdi lang="en">Jev</bdi> تجربة بحثية مستقلة؛ النموذج المرجعي هنا محاكاة تعليمية مفتوحة.</p>
       </div>
       <div class="hero-bottom wrap"><span>تحدّي الذكاء الاصطناعي الإسلامي · ٢٠٢٦</span><a href="#film" aria-label="تابع إلى الفيلم"><span aria-hidden="true">↓</span> اكتشف الفكرة</a></div>
@@ -130,8 +131,8 @@
       <div class="wrap">
         <div class="section-heading split-heading"><div><p class="eyebrow">٠٤ / جرّب بنفسك</p><h2 id="explore-title">منتج تستخدمه.<br>ومسار تفحصه.</h2></div><p class="section-intro">مساحتان مختلفتان بوضوح: قاف للبحث والحوار، ومرجع مفتوح لفهم منطق الاختيار والتغطية والإحالات.</p></div>
         <div class="experience-grid">
-          <article class="experience experience-qaf"><div class="experience-top"><span class="status-label"><span class="live-dot" aria-hidden="true"></span> المنتج القائم</span><bdi lang="en">qaf.ai</bdi></div><div class="qaf-wordmark" aria-hidden="true">قاف</div><div class="experience-copy"><h3>ابدأ بالسؤال. وارجع إلى المصدر.</h3><p>اسأل بالعربية، واقرأ الإجابة، وافتح الإحالة لفحص النص في سياقه داخل تجربة قاف الحالية.</p><a class="button button-navy" href="https://qaf.ai" target="_blank" rel="noopener">افتح قاف <span aria-hidden="true">↗</span></a><p class="experience-scope">قاف منتج سابق للتحدّي. لا ندّعي أن تجربة <bdi lang="en">Jev v4</bdi> منشورة في هذا المنتج.</p></div></article>
-          <article class="experience experience-reference"><img class="reference-art" src="assets/evidence-pages.webp" alt="" width="2752" height="1536" loading="lazy" aria-hidden="true"><div class="reference-shade" aria-hidden="true"></div><div class="experience-top"><span class="status-label">مرجع مفتوح</span><span>بُني في ٦ أكتوبر</span></div><div class="reference-symbol" aria-hidden="true"><span>[01]</span><i></i><span>↗</span></div><div class="experience-copy"><h3>شاهد كيف يُختار الدليل.</h3><p>٦ مقاطع عربية مصطنعة، و٤ أمثلة تتيح فحص صلة النص والتغطية وحالات الامتناع وصحة معرّف الإحالة.</p><a class="button button-mint" href="demo/">افتح التجربة التعليمية <span aria-hidden="true">←</span></a><p class="experience-scope">محاكاة تعليمية حتمية. لا تستدعي <bdi lang="en">Jev</bdi> أو أي نموذج لغوي، ولا تستخدم نصوصًا شرعية أو بيانات مستخدمين حقيقية.</p></div></article>
+          <article class="experience experience-qaf"><div class="experience-top"><span class="status-label"><span class="live-dot" aria-hidden="true"></span> المنتج القائم</span><bdi lang="en">qaf.ai</bdi></div><div class="product-identity"><img src="assets/brand/qaf-logomark-dark.svg" alt="" width="499" height="585" aria-hidden="true"><img src="assets/brand/qaf-wordmark-dark.svg" alt="قاف" width="35" height="20"></div><div class="experience-copy"><h3>ابدأ بالسؤال. وارجع إلى المصدر.</h3><p>اسأل بالعربية، واقرأ الإجابة، وافتح الإحالة لفحص النص في سياقه داخل تجربة قاف الحالية.</p><a class="button button-primary" href="https://qaf.ai" target="_blank" rel="noopener">افتح قاف <span aria-hidden="true">↗</span></a><p class="experience-scope">قاف منتج سابق للتحدّي. لا ندّعي أن تجربة <bdi lang="en">Jev v4</bdi> منشورة في هذا المنتج.</p></div></article>
+          <article class="experience experience-reference"><div class="experience-top"><span class="status-label">مرجع مفتوح</span><span>بُني في ٦ أكتوبر</span></div><div class="reference-symbol" aria-hidden="true"><span>[01]</span><i></i><span>↗</span></div><div class="experience-copy"><h3>شاهد كيف يُختار الدليل.</h3><p>٦ مقاطع عربية مصطنعة، و٤ أمثلة تتيح فحص صلة النص والتغطية وحالات الامتناع وصحة معرّف الإحالة.</p><a class="button button-primary" href="demo/">افتح التجربة التعليمية <span aria-hidden="true">←</span></a><p class="experience-scope">محاكاة تعليمية حتمية. لا تستدعي <bdi lang="en">Jev</bdi> أو أي نموذج لغوي، ولا تستخدم نصوصًا شرعية أو بيانات مستخدمين حقيقية.</p></div></article>
         </div>
         <div class="open-note"><span class="open-note-mark" aria-hidden="true">{ }</span><p><strong>قابل للفحص، من الواجهة إلى المصدر.</strong> ١٢ اختبارًا برمجيًا ناجحًا للمنطق وعقد المزوّد بمحاكاة الاستجابات، مع توثيق ومصادر وترخيص. هذه اختبارات تنفيذ، وليست قياسًا لجودة نموذج لغوي.</p><a class="text-link" href="https://github.com/tifa2UP/qaf-jev-challenge" target="_blank" rel="noopener">المستودع <span aria-hidden="true">↗</span></a></div>
       </div>
@@ -144,6 +145,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer"><div class="wrap"><div class="footer-top"><a class="brand" href="#" aria-label="العودة إلى بداية الصفحة"><span class="brand-qaf">قاف</span><span class="brand-divider" aria-hidden="true">×</span><span class="brand-jev" lang="en" dir="ltr">Jev</span></a><p>حوار يبدأ بالسؤال.<br>ومعرفة تعود إلى المصدر.</p><a href="https://github.com/tifa2UP/qaf-jev-challenge/blob/main/SOURCES.md" target="_blank" rel="noopener">المصادر والحقوق <span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><span>قاف × <bdi lang="en">Jev</bdi> · أكتوبر ٢٠٢٦</span><span>مشاهد المكتبة والورق صور فنية مولّدة؛ لا تمثّل مؤسسة بعينها.</span><a href="#">إلى الأعلى ↑</a></div></div></footer>
+  <footer class="footer"><div class="wrap"><div class="footer-top"><a class="brand" href="#" aria-label="العودة إلى بداية الصفحة"><img class="brand-wordmark" src="assets/brand/qaf-wordmark-dark.svg" alt="قاف" width="35" height="20"><span class="brand-divider" aria-hidden="true">×</span><span class="brand-jev" lang="en" dir="ltr">Jev</span></a><p>حوار يبدأ بالسؤال.<br>ومعرفة تعود إلى المصدر.</p><a href="https://github.com/tifa2UP/qaf-jev-challenge/blob/main/SOURCES.md" target="_blank" rel="noopener">المصادر والحقوق <span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><span>قاف × <bdi lang="en">Jev</bdi> · أكتوبر ٢٠٢٦</span><span>واجهة مرجعية بهوية قاف · المنتج والدراسة والنموذج التعليمي موضّحة بنطاقاتها.</span><a href="#">إلى الأعلى ↑</a></div></div></footer>
+  </div>
 </body>
 </html>

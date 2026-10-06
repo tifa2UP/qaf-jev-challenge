@@ -8,7 +8,7 @@ Arabic materials for the Islamic AI Challenge, submitted by **Abdellatif Abdelfa
 
 This is a new, independently written public reference and submission package. It contains a small, runnable Arabic evidence-workflow demonstration with synthetic fixtures, tests, operating documentation, an Arabic presentation, and the source of a Remotion explanatory video. It does **not** contain Qaf's proprietary production implementation, retrieval prompts, book corpus, credentials, or user conversations.
 
-The reviewer hub includes an original Arabic narrated film, selectable English captions, a downloadable transcript, an interactive explanation of the evidence workflow, and the study's results with their limitations. Approved voice clips, original visual assets, caption timing, and sound-design source are included so the film can be rendered without access to synthesis credentials.
+The reviewer hub includes an original Arabic narrated film, selectable English captions, a downloadable transcript, an interactive explanation of the evidence workflow, and the study's results with their limitations. Approved voice clips, Qaf brand artwork and licensed fonts, original diagrams, caption timing, and sound-design source are included so the film can be rendered without access to synthesis credentials.
 
 The static reference demo is explicitly an educational simulation. It demonstrates selecting evidence, handling missing coverage, and resolving citations only to allowed passage identifiers. It does not call Jev or Gemini and is not a deployment of the historical v4 experiment. Any optional server-side integration is documented separately in `demo/README.md`.
 
@@ -37,4 +37,4 @@ The reference corpus is newly authored teaching material about checking sources.
 
 ## Rights and sources
 
-Newly authored source code in this repository is offered under the MIT license. Third-party dependencies and fonts retain their own licenses. Qaf, Jev, TypeSafe, Gemini and Remotion names identify the relevant products; no third-party endorsement is claimed. See [`SOURCES.md`](SOURCES.md) and the component documentation for scope and attribution. No rights to Qaf's private implementation or underlying corpus are granted by this repository.
+Newly authored source code in this repository is offered under the MIT license. Qaf brand artwork remains Qaf property and is excluded from the code license. Third-party dependencies and fonts retain their own licenses. Qaf, Jev, TypeSafe, Gemini and Remotion names identify the relevant products; no third-party endorsement is claimed. See [`SOURCES.md`](SOURCES.md) and the component documentation for scope and attribution. No rights to Qaf's private implementation or underlying corpus are granted by this repository.
